@@ -1,11 +1,11 @@
-const express = require('express')
-const bodyParser = require('body-parser')
+import express from 'express'
+import bodyParser from 'body-parser'
 
 const app = express()
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
-app.post('/echo', function (req, res) {
+app.post('/echo', (req, res) => {
     console.log(req.body)
     res.json(req.body)
 })
