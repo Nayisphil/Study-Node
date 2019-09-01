@@ -1,6 +1,6 @@
 # Study-Node
 
-## start
+## Start
 
 ```sh
 yarn
