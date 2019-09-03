@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "start": "ts-node src/app.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "ts-node test/router_test.ts"
   },
   "main": "index.js",
   "repository": "https://github.com/Nayisphil/Study-Node",
